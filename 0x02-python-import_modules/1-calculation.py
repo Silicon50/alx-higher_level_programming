@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 
 if __name__ == "__main__":
 
@@ -7,14 +7,14 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    c = add(a, b)
-    print("{:d} + {:d} = {:d}".format(a, b, c))
+    add = add(a, b)
+    print("{:d} + {:d} = {:d}".format(a, b, add))
 
-    c = sub(a, b)
-    print("{:d} - {:d} = {:d}".format(a, b, c))
+    sub = sub(a, b)
+    print("{:d} - {:d} = {:d}".format(a, b, sub))
 
-    c = mul(a, b)
-    print("{:d} * {:d} = {:d}".format(a, b, c))
+    mul = mul(a, b)
+    print("{:d} * {:d} = {:d}".format(a, b, mul))
 
-    c = div(a, b)
-    print("{:d} / {:d} = {:.0f}".format(a, b, c))
+    div = div(a, b)
+    print("{:d} / {:d} = {:.0f}".format(a, b, div))

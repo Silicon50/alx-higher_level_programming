@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""Defines a square based on 1-square.py"""
-
+"""A square based on 1-square.py"""
 
 class Square:
-    """Instantiation would raise both TypeError and ValueError"""
+    """Instantiation to raise both TypeError and ValueError when applicable"""
     def __init__(self, size=0):
         self.__size = size
         if type(size) is not int:

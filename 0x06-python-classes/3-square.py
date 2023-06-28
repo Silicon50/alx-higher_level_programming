@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""returns the current square area"""
-
+"""returns the square area"""
 
 class Square:
     """defines a square and raises both TypeError and ValueError if

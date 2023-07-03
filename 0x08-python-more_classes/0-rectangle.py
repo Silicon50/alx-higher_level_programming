@@ -3,5 +3,5 @@
 
 
 class Rectangle:
-    """Defines a rectangle."""
+    """a rectangle has four corners and the length is different from width."""
     pass

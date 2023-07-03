@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""prints rectangle with #"""
+"""using # to print a rectangle"""
 
 
 class Rectangle:
@@ -16,7 +16,6 @@ class Rectangle:
 
     @property
     def width(self):
-        """Get/set the width of the rectangle."""
         return self.__width
 
     @width.setter
@@ -29,7 +28,6 @@ class Rectangle:
 
     @property
     def height(self):
-        """Get/set the height of the rectangle."""
         return self.__height
 
     @height.setter
@@ -41,24 +39,22 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """returns rectangle area"""
         return self.__width * self.__height
 
     def perimeter(self):
-        """returns rectangle perimeter"""
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """print rectangle"""
-        rect = ""
+        """to print rectangle"""
+        p_rect = ""
         if self.__width == 0 or self.__height == 0:
-            return rect
+            return p_rect
 
-        for h in range(self.__height):
-            for w in range(self.__width):
-                rect = rect + '#'
-            if h != self.__height - 1:
-                rect = rect + '\n'
+        for length in range(self.__height):
+            for size in range(self.__width):
+                p_rect = p_rect + '#'
+            if length != self.__height - 1:
+                p_rect = p_rect + '\n'
         return 

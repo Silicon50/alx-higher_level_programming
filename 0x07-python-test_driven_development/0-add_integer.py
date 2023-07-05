@@ -9,8 +9,8 @@ def add_integer(a, b=98):
         b : second parameter must be float or int
     raise error if a or b not int or float
     """
-    if type(a) is not [int,float]:
+    if type(a) not in [int,float]:
         raise TypeError("a must be int or float")
-    if type(b) is not [int, float]:
+    if type(b) not in [int, float]:
         raise TypeError("b must be int or float")
     return int(a) + int(b)

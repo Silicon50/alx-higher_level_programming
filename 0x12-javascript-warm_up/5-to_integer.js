@@ -1,6 +1,3 @@
 #!/usr/bin/node
 
-const arg = process.argv.slice(2);
-
-const ar = parseInt(arg[0])
-console.log(typeof ar);
+console.log(parseInt(process.argv[2]) ? 'My number: ' + Math.round(process.argv[2]) : 'Not a number');

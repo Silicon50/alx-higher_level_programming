@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Aim: to write a script that is free from SQL injections
+    Write a script that is free from SQL injections
 """
 from sys import argv
 import MySQLdb

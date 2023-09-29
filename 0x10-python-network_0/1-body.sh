@@ -1,3 +1,3 @@
 #!/bin/bash
-# takes in URL and redirects to new location
+# sends a GET request to the URL and sho the body
 curl -sL "$1"

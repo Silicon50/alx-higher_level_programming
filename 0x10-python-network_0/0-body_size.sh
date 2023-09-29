@@ -1,3 +1,3 @@
 #!/bin/bash
-# display number of bytes in location
+# displays the size of the body of the response
 curl -s "$1" | wc -c

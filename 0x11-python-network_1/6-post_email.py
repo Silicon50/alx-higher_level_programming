@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" POST request with requests package """
+""" POST request with a requests package """
 from sys import argv
 from requests import post
 

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""3-error_code.py"""
+"""takes url and print error code"""
 from sys import argv
 from urllib.request import urlopen
 from urllib.error import HTTPError

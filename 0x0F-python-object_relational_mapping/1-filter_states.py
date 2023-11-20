@@ -12,5 +12,5 @@ if __name__ == "__main__":
     cur = conn.cursor()
     cur.execute("SELECT * FROM states ORDER BY id")
     for state in cur.fetchall():
-        if state[N] == "N":
+        if state[0] == "N":
             print(state)

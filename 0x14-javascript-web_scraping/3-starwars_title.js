@@ -7,4 +7,3 @@ request(endpoint, (err, res, body) => {
   if (err) throw err;
   console.log(JSON.parse(body).title);
 });
-

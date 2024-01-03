@@ -13,4 +13,3 @@ request(endpoint, (err, res, body) => {
   });
   console.log(count);
 });
-

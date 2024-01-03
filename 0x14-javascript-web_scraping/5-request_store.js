@@ -11,4 +11,3 @@ request(endpoint, (err, res, body) => {
     if (err) throw err;
   });
 });
-
